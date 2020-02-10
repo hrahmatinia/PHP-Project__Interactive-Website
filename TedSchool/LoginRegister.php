@@ -27,16 +27,16 @@
                 <a href="https://twitter.com/Hrahmatinia" ><img src="Images/Icons/tw.png"></a>
                 <a href="https://www.instagram.com/hrahmatinia/?hl=en" ><img src="Images/Icons/insta.png"></a>
                 </div>
-                <form id="Login" class="inputs">
-                    <input type="text" class="input-field" placeholder="User ID" required="true">
-                    <input type="text" class="input-field" placeholder="Password" required="true">
+                <form id="Login" class="inputs" action="Validation.php" method="post">
+                    <input type="text" name="user" class="input-field" placeholder="User ID" required="true">
+                    <input type="text" name="password" class="input-field" placeholder="Password" required="true">
                     <input type="checkbox" class="check-Box"> <span>Remember Password </span>
                     <button type="submit" class="submit-button">Login</button>
                 </form>
-                <form id= "Sign-UP" class="inputs">
-                    <input type="text" class="input-field" placeholder="User ID" required="true">
-                    <input type="text" class="input-field" placeholder="Password" required="true">
-                    <input type="email" class="input-field" placeholder="E-Mail" required="true">
+                <form id= "Sign-UP" class="inputs" action="SignUP.php" method="post">
+                    <input type="text" name="user" class="input-field" placeholder="User ID" required="true">
+                    <input type="text" name="password" class="input-field" placeholder="Password" required="true">
+                    <input type="email" name="email" class="input-field" placeholder="E-Mail" required="true">
                     <input type="checkbox" class="check-Box"> <span>I have read and agree to the Privacy Policy.</span>
                     <button type="submit" class="submit-button">Sign UP</button>
                 </form>
