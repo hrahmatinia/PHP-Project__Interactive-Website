@@ -30,12 +30,12 @@ echo $query;
 $num = mysqli_num_rows($result);
 
 if($num ==1){
-    header('location:index.php');
-    echo 'taken already';
+    header('location:introduction.php');
+    echo 'successfull Login';
     
 } else {
     header('location:loginRegister.php');
-    echo 'successfull Login';
+    echo 'taken already';
 }
  
  

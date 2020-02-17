@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- ================ End Feature Area ================= -->
 
 <html>
     <head>
@@ -9,36 +8,48 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="Styles/HomeStyle.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    </head>
+      
+    </head>
     <body>
-        <div class="wrapper">
         <header>
-           <a class="textlogo" href="#">TED SCHOOL</a> <img class="logo" src="Images/Icons/edu.png" alt="LOGO">
-            <nav>
-                <ul class="nav-links">
-               
-                    <li><a href="#">Start</a></li>
-                    <li><a href="#">About us</a></li>
-                   
-                    <li><a href="#">Login/Sign UP</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#"><button>Contact</button></a>
-        </header>
-        <div class="row no-gutters">
-            <div class="col-md-6 no-gutters">
-            <div class="text-left d-flex justify-center align-items-center">
-                <h3><p class="coding-title">make coding available to EVERYONE!!</p></h3> 
-                <p> “Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.”
-—Bill Gates, Co-Chairman, Bill & Melinda Gates Foundation, Co-Founder, Microsoft</p>
+        <div id="main">
+            <div class="logo">
+                <a class="navbar-brand" href="#">TED SCHOOL</a><img class="logo-img" src="Images/Icons/edu.png" alt="LOGO"></a>
             </div>
-            </div>
-            <div class="col-md-6 no-gutters">
-            <div class="edu-image-right d-flex justify-center align-items-center">
-                <img src="Images/edu.png" alt="Education">
-            </div>
-            </div>
+            <ul class="navbar">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="LoginRegister.php">Login/Sign UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="cta" href="#"><button>Contact</button></a>
+                        </li>
+                    </ul>
         </div>
+            </header>
+            
+        <div class="Content">
+        <!-- ================ End Feature Area ================= -->
+        <!-- ================ End Feature Area ================= -->
+        
+            <div class="text-Bill">
+                <div class="text-left d-flex justify-center align-items-center">
+                    <h3><p class="coding-title">make coding available to EVERYONE!!</p></h3> 
+                    <p> “Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains.”
+                        —Bill Gates, Co-Chairman, Bill & Melinda Gates Foundation, Co-Founder, Microsoft</p>
+                </div>
+            </div>
+            <div class="study-image">
+                <div class="edu-image-right d-flex justify-center align-items-center">
+                    <img  class="Edu-img" src="Images/edu.png" alt="Education">
+                </div>
+            </div>
+        
         </div>
     </body>
 </html>
