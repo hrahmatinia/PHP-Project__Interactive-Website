@@ -8,10 +8,10 @@
 ?>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        
         <title>Login / Sign UP </title>
         <link rel="stylesheet" type="text/css" href="Styles/LoginStyle.css"/>
-        <script src="LoginRegister.js"></script>
+        <script src="JavaScript/LoginRegister.js"></script>
 
     </head>
     <body>

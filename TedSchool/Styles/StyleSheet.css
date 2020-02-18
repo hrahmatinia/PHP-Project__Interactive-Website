@@ -41,14 +41,14 @@ body p
 #content-area
 {
     float: left;
-    width: 80%;
-    height: 100%;
+    width: 79%;
+    height: auto;
     margin: auto;
     padding: auto;
     border-style: solid;
   border-width: 1px 1px 0px 1px;
   border-color: #E3E3E3;
-    
+    overflow: auto;
 }
 
 #sidebar
@@ -120,7 +120,7 @@ footer
 
 .vertical-menu {
   width: 100%;
-  height: 100%;
+  height: auto;
   overflow-y: auto;
   
 }
@@ -143,8 +143,10 @@ footer
   color: white;
 }
 
-.current_link {
-    color:white;
+#active
+{
+    background-color: green;
+    color: white;
 }
 .main-content
 {
@@ -152,14 +154,18 @@ footer
     margin-left: 30px;
     width: 98%;
     height: 100%;
-    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: no-content;
+    
 }
 .boxed
 {
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #E3E3E3;
+  
 }
+
 
 .textarea_example {
    resize: none;
@@ -177,4 +183,48 @@ footer
 .syntax-colo
 {
     color: blue;
+}
+
+.previous_button 
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: left;
+  
+}
+.Next_button
+{
+     background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+.tryIt_button
+{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: left;  
 }

@@ -46,8 +46,16 @@
            
             
             <div id="content-area">
-                <div class="main-content">
+    <div>
+       <a href="#" class="previous_button">previous</a>
+    <a href="#" class="Next_button">Next</a> 
+    </div>
+                <div class="main-content">               
+                                  
+                    
     <h1>PHP Syntax</h1>
+   
+    
     <hr>
     <h4>A PHP script is executed on the server, and the plain HTML result is sent back to the browser.</h4>
     <hr>
@@ -79,6 +87,13 @@
    ?>
   </div>  
     
+    <a href="Tryit_PHP_Syntax.php" class="tryIt_button">Try It Yourself</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
      <hr>
     <h3>What Can PHP Do?</h3>
     <ul>
@@ -103,16 +118,28 @@
         <li>PHP is easy to learn and runs efficiently on the server side</li>
         
     </ul>
-    
+    <br>               
+                                   
+                   
 </div>
-                 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+             <a href="#" class="previous_button">previous</a>
+             <a href="#" class="Next_button">Next</a>
+ 
             </div>
+                
             <div id="sidebar">
                 <h2>Vertical Scroll Menu</h2>
 
 <div class="vertical-menu">
-    <a href="Introduction.php" class="Intro">PHP Introduction</a>
-  <a href="Syntax.php">PHP Syntax</a>
+    <a href="Introduction.php"  >PHP Introduction</a>
+    <a href="Syntax.php" id="active">PHP Syntax</a>
   <a href="Comments.php">PHP Comments</a>
   <a href="Variables.php">PHP Variables</a>
   <a href="EchoPrints.php">PHP echo and print Statements</a>
