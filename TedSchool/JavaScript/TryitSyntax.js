@@ -12,26 +12,22 @@ function setupEditor()
   window.editor = ace.edit("editor");
   editor.setTheme("ace/theme/monokai");
   editor.getSession().setMode("ace/mode/javascript");
-  editor.setValue(`<!DOCTYPE html>
-<html>
-<body>
-
-<h2>JavaScript Functions</h2>
-
-<p>This example calls a function which calculates (a * b)/2 and returns the result:</p>
-
-<p id="Example"></p>
-
-<script>
-var x = myFunc(5, 6);
-document.getElementById("Example").innerHTML = x;
-
-function myFunc(a, b) {
-  return (a * b)/2;
-}
-</script>
-
-</body>
+  editor.setValue(`<html>
+   <body>     
+      <script type = "text/javascript">
+         <!--
+            var mark = 120;
+         
+            if( mark < 70 ) {
+               document.write("<b>You must study more</b>");
+            }
+            else{
+            document.write("<b>well done!</b>");
+            }
+         //-->
+      </script>      
+      <p>Set the variable to different value and then try...</p>
+   </body>
 </html>`,1); //1 = moves cursor to end
 
   editor.getSession().on('change', function() {

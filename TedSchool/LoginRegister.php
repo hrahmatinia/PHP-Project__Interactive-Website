@@ -17,12 +17,12 @@
     <body>
         <div class="wrapper">
             <div class="Head-part">
-                <nav>
-                    <h1 class="brand"><a href="index.php">Te<span class="ted">DS</span>chool</a></h1>
-                    
-                     <ul >
-                        <li>
-                            <a  href="#">Home</a>
+                
+            <img src="Images/teddy.png" alt="edu image">
+           
+                  <ul>
+                        <li >
+                            <a  class="active" href="#">Home</a>
                         </li>
                         <li>
                             <a  href="#">About US</a>
@@ -31,14 +31,15 @@
                             <a  href="#">Contact</a>
                         </li>
                     </ul>
-                </nav>
-                <hr>
+               
             </div>
             <div class="content">
                  <div class="left-side">
                 
-                <img class="education-img" src="Images/coding-1556754232.jpg.webp">
+                     <img class="education-img" src="Images/free.png" alt="edu image">
+                  
             </div>
+                
             <div class="right-side">
             <div class="form-box">
                 <div class="LogReg-box">
@@ -70,7 +71,7 @@
             
            
                 </div>
-            <hr>
+            
             <div class="footer">
                  <!-- Footer -->
           <footer>

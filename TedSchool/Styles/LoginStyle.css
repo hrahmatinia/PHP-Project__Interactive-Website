@@ -1,8 +1,8 @@
 *{
     margin : 0;
     padding: 0;
-    font-family: "Roboto Cn", sans-serif;
-    box-sizing: border-box; 
+    font-family: sans-serif;
+    
 }
 
 
@@ -10,69 +10,88 @@
 {
    height: 100%;
    width: 100%;
-  /* background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)), url(../Images/zany-jadraque-g2xKEEyd-_I-unsplash.jpg);*/
-   background-position: center;
-   background-size: cover;
-   position:absolute; 
-  
+   background: white;
+  /* background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)), url(../Images/zany-jadraque-g2xKEEyd-_I-unsplash.jpg);*/  
 }
 
-.Head-part
+.Head-part ul
 {
-   position: fixed;
-    max-width: 120rem;
-    width: 100%;
-    height: 10%;
-    margin: auto;
-    border-bottom: 2px #eee;
-   
+  float: right;
+  display: inline-flex;
+  margin: 50px;
+  text-decoration: none;
+}
+
+.Head-part ul li
+{
+ list-style:none;
+ margin: 20px;
+ color: darkblue;
+ cursor: pointer;
+ text-decoration: none;
+}
+.Head-part ul li a
+{
+ list-style:none;
+ text-decoration: none;
+}
+
+ img
+{
+    width: 70px;
+    margin: 10px;
+    padding: 20px 10px;
+    float: left;
+}
+
+.active
+{
     
+    border: 1px solid burlywood;
+}
+a:active {
+  color: red;
 }
 
-h1
-{
-   color: darkslateblue;
-   text-decoration: #080A8C;
-}
 .content
 {
-    width: 100%;
-    height: 100vh;
-   
+    width: 90%;
+    height: 50%;
+    top: 15%;
+    left: 130px;
+    position: absolute;  
 }
 
 .content:after
 {
-  content: "";
-  display: table;
-  clear: both;
+  display:table;
+  content:"";
+  clear:both;
 }
+
 .right-side
 {
     width: 50%;
-    height: 100vh;
-    float: left;
+    height: 100%;
+    float: right;
     align-items: center;
-    border-left: 1px #013DC2;
      display:inline-block;
+     
 }
 
 .left-side
 {
     width: 50%;
-    height: 100vh;
     float: left;
-    align-items: center;
-     display:inline-block;
+    text-align: center;
 }
+
 
 .education-img
 {
-    width: 100%;
-    height: 40%;
-    padding-top: 3rem;
-    text-align: center;
-    margin-top: 150px;
+    width: 70%;
+    height: 110%;
+    margin-top: 10px;
     transform: translate(10%, 0);
     
 }
@@ -99,7 +118,7 @@ h1
 .LogReg-box
 {
     width: 220px;
-    margin: 30px auto;
+    margin: 30px auto auto 70px;
     position: relative;
     box-shadow: 0 0 20px 9px #7D53E4;
     border-radius: 10px;
@@ -138,8 +157,9 @@ h1
 
 .Social-Media img
 {
-    width: 30px;
-    margin: 0 12px;
+    width: 50px;
+    height: 30px;
+    margin: 0 12px 0 32px;
     box-shadow: 0 0 20px 0 #7D53E4;
     cursor: pointer;
     border-radius: 50%;
@@ -188,6 +208,7 @@ h1
 .check-Box
 {
    margin: 30px 10px 30px 0; 
+   position: relative;
    
 }
 
@@ -209,11 +230,6 @@ h1
     left: 450px;
 }
 
-a
-{
-    text-decoration: none;
-    color: darkslateblue;
-}
 
 ::placeholder {
   color: darkblue;
@@ -228,17 +244,6 @@ a
  color: darkblue;
 }
 
-nav
-{
-padding-top: 2rem;    
-display: flex;
-justify-content: space-between;
-align-items: center;
-text-transform: uppercase;
-font-size: 1rem;
- text-align: center;
-  background-color: #f1f1f1;
-}
 
 
 .brand
@@ -252,66 +257,7 @@ font-size: 1rem;
     color : crimson;
 }
 
-nav ul
-{
-    display: flex;
-    
-}
 
-nav ul li
-{
-    list-style: none;
-}
-
-nav ul li a 
-{
-    padding: 1rem 0;
-    margin: 0 3rem;
-    position: relative;
-    letter-spacing: 2px;
-    border-bottom: 3px solid transparent;
-    color: darkslateblue;
-}
-
-nav ul li a :last-child
-{
-    margin-right: 20px;
-}
-
-nav ul li a::before,
-nav ul li a::after
-{
-    content:'';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: crimson;
-    left: 0;
-    transform: scaleX(0);
-    transition: all 0.5s;
-}
-
-nav ul li a:hover
-{
-    border-bottom: 3px solid red;
-}
-nav ul li a::before
-{
-    top: 0;
-    transform-origin: left;
-}
-
-nav ul li a::after
-{
-    bottom: 0;
-    transform-origin: right;
-}
-
-nav ul li a::hover::before,
-nav ul li a::hover::after
-{
-   transform: scaleX(1);
-}
 
 .footer {
    position:fixed;
@@ -328,10 +274,20 @@ nav ul li a::hover::after
 @media screen and (max-width: 600px) {
   .left-side,.right-side {
     width: 100%;
+    height: 100%;
   }
  nav ul li
 {
-    list-style: square outside none;
+    list-style: none;
+    font-size: 15px;
+}
+a{
+    font-size: 10px;
+}
+.Head-part
+{
+    width: 100%;
+    
 }
 }
 

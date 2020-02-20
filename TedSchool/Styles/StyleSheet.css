@@ -1,6 +1,6 @@
 body
 {
-    font-family: Lucida Console, Monaco, monospace , arial ;
+    font-family: serif ,Lucida Console, Monaco, monospace , arial ;
     background-color: white;
     background-size: cover;
     background-position: right;
@@ -10,8 +10,8 @@ body
 
 body p
 {
-    font-size: 0.8em;
-    line-height: 1.28em;
+    font-size: 1em;
+    line-height: 2em;
     
 }
 
@@ -26,9 +26,16 @@ body p
 
 #banner
 {
-   
+   background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)), url(../Images/coding.jpg);
     height: 100px;
-  
+  padding-top: 2rem;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-transform: uppercase;
+font-size: 1rem;
+ text-align: center;
+  background-color: #f1f1f1;
     
 }
 .main:after
@@ -69,7 +76,7 @@ body p
     height: 60px;
     border: 3px solid #E3E3E3;
     margin-top: 20px;
-    text-shadow: 0.1em 0.1em #333;
+    text-shadow: none;
 }
 
 #nav
@@ -87,7 +94,7 @@ body p
 
 #nav li
 {
-    font-size: 24px;
+    font-size: 20px;
     float: left;
     position: relative;
     width: 180px;
@@ -97,13 +104,13 @@ body p
 #nav a:link, nav a:active, nav a:visited
 {
     display: block;
-    color: #fff;
+    color: darkslateblue;
     text-decoration: none;
 }
 
 #nav a:hover
 {
-    color: lightblue;
+    color: green;
 }
 
 footer
@@ -194,7 +201,7 @@ footer
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   float: left;
@@ -209,14 +216,14 @@ footer
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   float: right;
 }
 .tryIt_button
 {
-    background-color: #4CAF50;
+    background-color: lightsalmon;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -227,4 +234,10 @@ footer
   margin: 4px 2px;
   cursor: pointer;
   float: left;  
+}
+
+span
+{
+    color: red;
+    font-size: 15px;
 }

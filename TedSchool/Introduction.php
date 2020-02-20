@@ -2,7 +2,7 @@
 <html>
     <head>
         
-        <title> Introduction  </title>
+        <title> JS Introduction  </title>
         <link rel="stylesheet" type="text/css" href="Styles/StyleSheet.css"/>
     </head>
     <body>
@@ -14,71 +14,65 @@
             
             <nav id="navigation">
                 <ul id="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="Introduction.php">Home</a></li>
+                    <li><a href="quiz.php">QUIZ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="About.php">About US</a></li>
+                    <li><a href="LoginRegister.php">Logout</a></li>
                 </ul>
             </nav>
             <div class="main">
                        <div id="content-area">
     <div>
-       <a href="#" class="previous_button">previous</a>
-    <a href="#" class="Next_button">Next</a> 
+      <a href="#" class="previous_button">&#9664;Previous</a>
+       <a href="Syntax.php" class="Next_button">Next&#9658;</a> 
     </div>
                 <div class="main-content">
-    <h1>PHP Introduction</h1>
+    <h1>JavaScript Introduction</h1>
     <hr>
-    <h4>PHP code is executed on the server.</h4>
+    <h4>JavaScript is one of the world's most popular programming languages.</h4>
     <hr>
-    <h3>What is PHP?</h3>
+    <h3>What is JavaScript?</h3>
     <ul>
-        <li>PHP is an acronym for "PHP: Hypertext Preprocessor"</li>
-        <li>PHP is a widely-used, open source scripting language</li>
-        <li>PHP scripts are executed on the server</li>
-        <li>PHP is free to download and use</li>
+        <li>JavaScript is a multi-paradigm,just-in-time compiled language.</li>
+        <li>JavaScript is a high-Level programming language</li>
+        <li>JavaScript has dynamic typing and has curly bracket syntax</li>
+        
     </ul>
     
-    <h3> PHP is an amazing and popular language!></h3>
-   <p> It is powerful enough to be at the core of the biggest blogging system on the web (WordPress)!<br>
-    It is deep enough to run the largest social network (Facebook)!<br>
-    It is also easy enough to be a beginners first server side language!<br>
+    <h3> JavaScript is an amazing and popular language!</h3>
+   <p> JavaScript was made to make web pages brighter and more user friendly!<br>
+    it has no what so ever relation to java<br>
+    it is easy enough to be picked for the first language to learn!<br>
      </p>
 
  <hr>
-    <h3>What is PHP File?</h3>
+    <h3>What is it called JavaScript?</h3>
     <ul>
-        <li>PHP files can contain text, HTML, CSS, JavaScript, and PHP code</li>
-        <li>PHP code is executed on the server, and the result is returned to the browser as plain HTML</li>
-        <li>PHP files have extension ".php"</li>
-      
+        <li>At first the called it LiveScript.</li>
+        <li>Then to make it more popular called it after the Java which was famous at the time.</li>      
     </ul>
     
      <hr>
-    <h3>What Can PHP Do?</h3>
+    <h3>What Can JavaScript Do?</h3>
     <ul>
-        <li>PHP can generate dynamic page content</li>
-        <li>PHP can create, open, read, write, delete, and close files on the server</li>
-        <li>PHP can collect form data</li>
-        <li>PHP can send and receive cookies</li>
-        <li>PHP can add, delete, modify data in your database</li>
-        <li>PHP can be used to control user-access</li>
-        <li>PHP can encrypt data</li>
+        <li>JavaScript can generate dynamic page content</li>
+        <li>JavaScript can be used on the both server side and client side</li>
+        <li>JavaScript is a safe language</li>
+        <li>JavaScript can change the existing content of a web page and modify styles</li>
+        <li>It can run functions on mouse click or press keys </li>
+        <li>It is able to get and set cookies</li>
+        <li>JavaScript can save the data on the client side</li>
       
     </ul>
-    <p>With PHP you are not limited to output HTML. You can output images, PDF files,
-        and even Flash movies. You can also output any text, such as XHTML and XML.</p>
-    
+   
       <hr>
-    <h3>Why PHP ?</h3>
+    <h3>Why JavaScript ?</h3>
     <ul>
-        <li>PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)</li>
-        <li>PHP is compatible with almost all servers used today (Apache, IIS, etc.)</li>
-        <li>PHP supports a wide range of databases</li>
-        <li>PHP is free. Download it from the official PHP resource: www.php.net</li>
-        <li>PHP is easy to learn and runs efficiently on the server side</li>
-        
+        <li>Amazing integeration with CSS and HTML</li>
+        <li>It is safe</li>
+        <li>It is simple to do simple things.s</li>
+        <li>It is supported by majority of browsers</li>        
     </ul>
     <br>
   
@@ -90,8 +84,8 @@
     <br>
     <br>
    
-             <a href="#" class="previous_button">previous</a>
-             <a href="#" class="Next_button">Next</a>
+             <a href="#" class="previous_button">&#9664;Previous</a>
+       <a href="Syntax.php" class="Next_button">Next&#9658;</a> 
                        </div>   
            
             
@@ -99,31 +93,31 @@
                 <h2>Vertical Scroll Menu</h2>
 
 <div class="vertical-menu">
-  <a href="Introduction.php" id="active" >PHP Introduction</a>
-  <a href="Syntax.php" >PHP Syntax</a>
-  <a href="Comments.php">PHP Comments</a>
-  <a href="Variables.php">PHP Variables</a>
-  <a href="EchoPrints.php">PHP echo and print Statements</a>
-  <a href="DataTypes.php">PHP Data Types</a>
-  <a href="Strings.php">PHP Strings</a>
-  <a href="Numbers.php">PHP Numbers</a>
-  <a href="Constants.php">PHP Constants</a>
-  <a href="Operators.php">PHP Operators</a>
-  <a href="IFElseIF.php">PHP if...else...elseif Statements</a>
-  <a href="Switch.php">PHP switch Statement</a>
-  <a href="Loops.php">PHP Loops</a>
-  <a href="Functions.php">PHP Functions</a>
-  <a href="Arrays.php">PHP Arrays</a>
-  <a href="GlobalVariables.php">PHP Global Variables - Superglobals</a>
-  <a href="FormHandlings.php">PHP Form Handling</a>
-  <a href="FormValidation.php">PHP Form Validation</a>
-  <a href="formRequierdFields.php">PHP Forms - Required Fields</a>
-  <a href="Validateemails.php">PHP Forms - Validate E-mail and URL</a>
-  <a href="CompleteFormExample.php">PHP Complete Form Example</a>
-  <a href="Cookies.php">PHP Cookies</a>
-  <a href="Sessions.php">PHP Sessions</a>
-  <a href="Filters.php">PHP Filters</a>
-  <a href="JSon.php">PHP and JSON</a>
+  <a href="Introduction.php" id="active" >JavaScript Introduction</a>
+  <a href="Syntax.php" >JavaScript Syntax</a>
+  <a href="Comments.php">JavaScript Comments</a>
+  <a href="Variables.php">JavaScript Variables</a>
+  <a href="EchoPrints.php">JavaScript echo and print Statements</a>
+  <a href="DataTypes.php">JavaScript Data Types</a>
+  <a href="Strings.php">JavaScript Strings</a>
+  <a href="Numbers.php">JavaScript Numbers</a>
+  <a href="Constants.php">JavaScript Constants</a>
+  <a href="Operators.php">JavaScript Operators</a>
+  <a href="IFElseIF.php">JavaScript if...else...elseif Statements</a>
+  <a href="Switch.php">JavaScript switch Statement</a>
+  <a href="Loops.php">JavaScript Loops</a>
+  <a href="Functions.php">JavaScript Functions</a>
+  <a href="Arrays.php">JavaScript Arrays</a>
+  <a href="GlobalVariables.php">JavaScript Global Variables - Superglobals</a>
+  <a href="FormHandlings.php">JavaScript Form Handling</a>
+  <a href="FormValidation.php">JavaScript Form Validation</a>
+  <a href="formRequierdFields.php">JavaScript Forms - Required Fields</a>
+  <a href="Validateemails.php">JavaScript Forms - Validate E-mail and URL</a>
+  <a href="CompleteFormExample.php">JavaScript Complete Form Example</a>
+  <a href="Cookies.php">JavaScript Cookies</a>
+  <a href="Sessions.php">JavaScript Sessions</a>
+  <a href="Filters.php">JavaScript Filters</a>
+  <a href="JSon.php">JavaScript and JSON</a>
   
 </div>
             </div>

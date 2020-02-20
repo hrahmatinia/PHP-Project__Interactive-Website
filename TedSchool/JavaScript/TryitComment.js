@@ -18,16 +18,18 @@ function setupEditor()
 
 <h2>JavaScript Functions</h2>
 
-<p>This example calls a function which calculates (a * b)/2 and returns the result:</p>
-
-<p id="Example"></p>
+<p>This example calls a function which performs a calculation and returns the result:</p>
+<p>Try to switch between to values of a and b -->  var x = myFunction(4, 3) to have different results</p>
+<p id="demo"></p>
 
 <script>
-var x = myFunc(5, 6);
-document.getElementById("Example").innerHTML = x;
+//var x = myFunction(4, 3); 
+//by adding comment symbol infront of the line this line is a comment now and we can run program with the next line.
+var x = myFunction(5, 7);
+document.getElementById("demo").innerHTML = x;
 
-function myFunc(a, b) {
-  return (a * b)/2;
+function myFunction(a, b) {
+  return a * b;
 }
 </script>
 

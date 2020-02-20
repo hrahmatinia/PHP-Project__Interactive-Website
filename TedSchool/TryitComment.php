@@ -2,7 +2,7 @@
     <head>
         <title>TRY IT YOURSELF</title>
         <link rel="stylesheet" type="text/css" href="Styles/TryIt_StyleSheet.css"/>
-        <script src="JavaScript/TryitYourself.js"></script>
+        <script src="JavaScript/TryitComment.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
         
     </head>
@@ -14,7 +14,7 @@
             
             <nav id="navigation">
                 <ul id="nav">
-                     <li><a href="Introduction.php">Home</a></li>
+                    <li><a href="Introduction.php">Home</a></li>
                     <li><a href="quiz.php">QUIZ</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="About.php">About US</a></li>
