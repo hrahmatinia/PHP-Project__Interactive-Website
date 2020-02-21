@@ -1,12 +1,20 @@
-
+<!--
+this frame is common between all the linked pages.it is basically the fram that contain my material.text.menu,links and php
+-->
 <html>
     <head>
-
+        <meta charset="utf-8"/>
+        <meta name="vieport" content="width-device-width, initoal-scale=1.0"> 
         <title>JavaScript Comments  </title>
         <link rel="stylesheet" type="text/css" href="Styles/StyleSheet.css"/>
     </head>
     <body>
 
+        <!--
+This block of php again is shared between all the pages.it is just to define my sample codes.
+the main reason to do this.is because I was not able to add code inside the tags if i didnt
+want to run the code and simply demonstrate that as a sample
+        -->
         <?php
         $php_start_tag = '"<?php"';
         $php_end_tag = '"?>"';
@@ -65,15 +73,13 @@ function myFunction(a, b) {
             <nav id="navigation">
                 <ul id="nav">
                     <li><a href="Introduction.php">Home</a></li>
-                    <li><a href="quiz.php">QUIZ</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="About.php">About US</a></li>
-                    <li><a href="LoginRegister.php">Logout</a></li>
+                    <li><a href="quiz.php" target="_blank">QUIZ</a></li>
+                    <li><a href="index.php">Logout</a></li>
                 </ul>
             </nav>
             <div class="main">
 
-
+                //in each content page we have 2 next-page and previous-page keys
                 <div id="content-area">
                     <div>
                         <a href="Syntax.php" class="previous_button">&#9664;Previous</a>
@@ -127,7 +133,8 @@ function myFunction(a, b) {
                             ?>
                         </div>
                         <hr>
-
+                        <!--try it key is going to try it page and then linked to the JavaScript page by
+                                                the same name to actually run the try it page.which the user can practice-->
                         <a href="TryitComment.php"  target="_blank" class="tryIt_button">Practice</a>
 
 
@@ -149,7 +156,7 @@ function myFunction(a, b) {
                     <br>
                     <br>
                     <br>
-
+                    //in each content page we have 2 next-page and previous-page keys
                     <a href="Syntax.php" class="previous_button">&#9664;Previous</a>
                     <a href="Variables.php" class="Next_button">Next&#9658;</a>
 
@@ -162,35 +169,23 @@ function myFunction(a, b) {
                         <a href="Introduction.php"  >JavaScript Introduction</a>
                         <a href="Syntax.php" >JavaScript Syntax</a>
                         <a href="Comments.php" id="active">JavaScript Comments</a>
-                        <a href="Variables.php">JavaScript Variables</a>
-                        <a href="EchoPrints.php">JavaScript echo and print Statements</a>
+                        <a href="Variables.php" >JavaScript Variables</a>
                         <a href="DataTypes.php">JavaScript Data Types</a>
                         <a href="Strings.php">JavaScript Strings</a>
-                        <a href="Numbers.php">JavaScript Numbers</a>
-                        <a href="Constants.php">JavaScript Constants</a>
+                        <a href="Numbers.php">JavaScript Numbers</a>                       
                         <a href="Operators.php">JavaScript Operators</a>
-                        <a href="IFElseIF.php">JavaScript if...else...elseif Statements</a>
-                        <a href="Switch.php">JavaScript switch Statement</a>
+                        <a href="IFElseIF.php">JavaScript if...else...elseif Statements</a>                      
                         <a href="Loops.php">JavaScript Loops</a>
                         <a href="Functions.php">JavaScript Functions</a>
-                        <a href="Arrays.php">JavaScript Arrays</a>
-                        <a href="GlobalVariables.php">JavaScript Global Variables - Superglobals</a>
-                        <a href="FormHandlings.php">JavaScript Form Handling</a>
-                        <a href="FormValidation.php">JavaScript Form Validation</a>
-                        <a href="formRequierdFields.php">JavaScript Forms - Required Fields</a>
-                        <a href="Validateemails.php">JavaScript Forms - Validate E-mail and URL</a>
-                        <a href="CompleteFormExample.php">JavaScript Complete Form Example</a>
-                        <a href="Cookies.php">JavaScript Cookies</a>
-                        <a href="Sessions.php">JavaScript Sessions</a>
-                        <a href="Filters.php">JavaScript Filters</a>
-                        <a href="JSon.php">JavaScript and JSON</a>
+                        <a href="Arrays.php">JavaScript Arrays</a>                      
+                        <a href="quiz.php" target="_blank">JavaScript QUIZ</a>
 
                     </div>
                 </div>
             </div>
 
             <footer>
-                <p> All rights reserved </p>
+                <p> &copy Copyright <?php echo date("Y"); ?> TEDSCHOOL.COM </p>
             </footer>
         </div>
 

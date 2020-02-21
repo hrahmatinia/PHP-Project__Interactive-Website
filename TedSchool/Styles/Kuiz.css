@@ -1,8 +1,8 @@
 body
 {
-font-family: arial;
-font-size: 15px;
-line-height: 1.6em;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 1.6em;
 }
 
 li
@@ -65,7 +65,7 @@ input[type='text']
     padding: 4px;
     border: 1px #ccc solid;
     border-radius: 5px;
-    
+
 }
 
 input[type='number']
@@ -74,7 +74,7 @@ input[type='number']
     padding: 4px;
     border: 1px #ccc solid;
     border-radius: 5px;
-    
+
 }
 
 @media only screen and (max-width:960)

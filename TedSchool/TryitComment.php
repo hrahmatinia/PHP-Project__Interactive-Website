@@ -1,37 +1,47 @@
+<!--
+This is a frame that i used for the try-it page.
+it has been repeated in each and every try-it page.
+i have tried to have it as a template.but I could not fix it at the end.
+the only difference is the JavaScript page link in each page is different.
+-->
 <html>
     <head>
+        <meta charset="utf-8"/>
+        <meta name="vieport" content="width-device-width, initoal-scale=1.0">
         <title>TRY IT YOURSELF</title>
         <link rel="stylesheet" type="text/css" href="Styles/TryIt_StyleSheet.css"/>
         <script src="JavaScript/TryitComment.js"></script>
+        <script src="JavaScript/Hamburger.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
         
     </head>
     <body onload="load()">
-         <div id="wrapper">
-            <div id="banner">
-                
-            </div>
+         
+        <div class="wrapper">
+             <div class="nav" >
+                 <label for="toggle">&#9776;</label>
+                 <input type="checkbox" id="toggle"/>
+                 <div class="menu">
+                     <a href="Introduction.php">Home</a>
+                     <a href="quiz.php" target="_blank">QUIZ</a>
+                     <a href="index.php"><span>Log Out</span></a>
+                    
+                 </div>
+             </div>  
             
-            <nav id="navigation">
-                <ul id="nav">
-                    <li><a href="Introduction.php">Home</a></li>
-                    <li><a href="quiz.php">QUIZ</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="About.php">About US</a></li>
-                    <li><a href="Login.php">Logout</a></li>
-                </ul>
-            </nav>
-            <div id="main-Container">
-                <div id="editor">
+            //in each trying page we have one editor and one ifram
+            <div class="main-Container">
+                <div class="editor" id="editor">
                     
                 </div>
-                <iframe id="iframe"> </iframe>  
+                <iframe class="iframe" id="iframe"> </iframe>  
                 </div>
-            </div>
+            <div class="footer">
              <footer>
-                <p> All rights reserved </p>
+                <p> &copy Copyright <?php echo date("Y"); ?> TEDSCHOOL.COM </p>
             </footer>
-       
+                </div>
+       </div>
     </body>
 </html>
 

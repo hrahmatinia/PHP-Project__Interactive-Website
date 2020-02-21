@@ -13,28 +13,31 @@ function setupEditor()
 {
     window.editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
-    editor.session.setMode("ace/mode/html");
     editor.getSession().setMode("ace/mode/javascript");
     editor.setValue(`<!DOCTYPE html>
 <html>
 <body>
 
-<h2>JavaScript Comments</h2>
-
-<p>This example calls a function which performs a<br> calculation and returns the result:</p>
-<p>Try to switch between to values of a and b --> <br> var x = myFunction(4, 3) to have different results</p>
 <p id="demo"></p>
 
 <script>
-//var x = myFunction(4, 3); 
-//by adding comment symbol infront of the line this line
-// is a comment now and we can run program with the next line.
-var x = myFunction(5, 7);
-document.getElementById("demo").innerHTML = x;
-
-function myFunction(a, b) {
-  return a * b;
+var mark = 50;
+  var message="";  
+switch (mark) {
+  case (40):
+    message = "Failed";
+    break;
+    
+  case (50) :
+    message = "Nice,you have passed";
+    break;
+  case (70):
+    
+    message = "congrats";
+    break;
+  
 }
+document.getElementById("demo").innerHTML = message;
 </script>
 
 </body>
@@ -52,18 +55,27 @@ function myFunction(a, b) {
         showLineNumbers: true,
         showGutter: false,
         vScrollBarAlwaysVisible: false,
-        enableBasicAutocompletion: false,
-        enableLiveAutocompletion: false
+        enableBasicAutocompletion: false, enableLiveAutocompletion: false
     });
 
     editor.setShowPrintMargin(false);
     editor.setBehavioursEnabled(false);
 }
 
-
 //caliing both functions in load function
 //load function is runing at the time of loading in body tag
 function load() {
     setupEditor();
     update();
+
 }
+
+
+
+
+
+
+
+
+
+

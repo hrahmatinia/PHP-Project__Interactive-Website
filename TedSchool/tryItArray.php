@@ -10,7 +10,7 @@ the only difference is the JavaScript page link in each page is different.
         <meta name="vieport" content="width-device-width, initoal-scale=1.0">
         <title>TRY IT YOURSELF</title>
         <link rel="stylesheet" type="text/css" href="Styles/TryIt_StyleSheet.css"/>
-        <script src="JavaScript/TryitSyntax.js"></script>
+        <script src="JavaScript/tryItArray.js"></script>
         <script src="JavaScript/Hamburger.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
 

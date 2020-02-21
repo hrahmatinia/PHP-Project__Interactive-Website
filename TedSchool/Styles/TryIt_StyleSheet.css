@@ -1,130 +1,121 @@
-
-*, body
-{
-    margin: 0;
-    padding: 0;
-}
-
+/* this is for Try_It pages */ 
 body
 {
-  background: #ccc;  
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-#wrapper
-{
-  width: 100%;
-  background-color: transparent;
-  margin: 0 auto;
-  padding: 10px;
-  
-}
-
-#banner
-{
-   
-    height: 100px;
-  
-    
-}
-
-#main-Content
-{
+    width: 100%;
     height: 100%;
-   width: 80%;
-   margin-left: auto;
-   margin-right: auto;
-   float: left;
+    margin: 0;
+    overflow: hidden;
+}
+html{
+    font-family: "helvetica neue",sens-serif;
 }
 
-#editor
-{
-   border: none; 
-   background: darkslategray;
-   height:70%;
-   width: 48%;
-   margin: 1%;
-   float: left;
-   display: inline-block;
-   
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
 }
-
-
-#iframe
-{
-    border: none; 
-     background: #fff;
-      height: 70%;
-   width: 48%;
-   margin: 1%;
-   display: inline-block;
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    width:100%;
+    height: 7%;
+    line-height: 70px;
+    z-index: 9999;
 }
-
-.footer
-{
-    align-items: center;
-    
-}
-
-#navigation
-{
-    height: 60px;
-    border: 3px solid #E3E3E3;
-    margin-top: 20px;
-    text-shadow: 0.1em 0.1em #333;
-}
-
-#nav
-{
-    list-style: none;
-}
-
-#nav ul
-{
-   margin: 0;
-   padding: 0;
-   width: auto;
-   display: none;
-}
-
-#nav li
-{
-    font-size: 24px;
-    float: left;
-    position: relative;
-    width: 180px;
-    height: 50px;
-}
-
-#nav a:link, nav a:active, nav a:visited
-{
+.main-Container{
+    width: 100%;
+    height:90%;
+    overflow-x: hidden;
+    overflow-y: hidden;
     display: block;
-    color: #fff;
+}
+.menu{
+    margin:0 30px 0 0;
+}
+
+.menu a{
+    clear: right;
     text-decoration: none;
+    color: grey;
+    margin: 0 10px;
+    line-height: 70px;
+
 }
 
-#nav a:hover
-{
-    color: lightblue;
+span{
+    color: #54D17A;
 }
 
-footer
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle{
+    display: none;
+}
+
+
+.editor
 {
-    clear: both;
-    width: auto;
-    height: 40px;
-    padding: 10px;
-    border: 3px solid #E3E3E3;
+    border: 1px; 
+    background: darkslategray;
+    height:80%;
+    width: 48%;
+    margin: 1%;
+    float: left;
+    display: inline-block;
+
+}
+
+
+.iframe
+{
+    border: 1px;
+    background: #ccc;
+    height: 80%;
+    width: 48%;
+    margin: 1%;
+    display: inline-block;
+    float: left;
+}
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:gainsboro;
     text-align: center;
-    color: #FFF;
-    text-shadow: 0.1em 0.1em #333;
+    padding-bottom: 30px;
+    margin:auto
 }
 
-.main:after
-{
-  display:table;
-  content:"";
-  clear:both;
+@media only screen and (max-width: 500px){
+    label{
+        display: block;
+        cursor: pointer;
+    } 
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+
 }
+
+

@@ -1,3 +1,7 @@
+/* this is like the index page css file but without animaation.
+an admin can not register and they must be in the system in advance that is why
+they do not have register therefor we dont need the registeration form */ 
+
 *{
     margin : 0;
     padding: 0;
@@ -11,7 +15,7 @@
     height: 100%;
     width: 100%;
     background: white;
-    /* background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.1)), url(../Images/c1.png);*/  
+    /* */  
 }
 
 .Head-part ul
@@ -21,6 +25,7 @@
     margin: 50px;
     text-decoration: none;
 }
+
 .Head-part{
     position:fixed;
     width: 100%;
@@ -152,13 +157,12 @@ a:active {
     position: relative;
     box-shadow: 0 0 20px 9px #7D53E4;
     border-radius: 10px;
-    background-color: #CDA8EA;
+    background:linear-gradient(to right,#013DC2,#6B0A91);
 }
 
 .toggle-btn
 {
     padding: 10px 30px;
-    cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
@@ -253,24 +257,8 @@ a:active {
     left: 50px;
 }
 
-#Sign-UP
-{
-    left: 450px;
-}
 
 
-::placeholder {
-    color: darkblue;
-    opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: darkblue;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: darkblue;
-}
 
 
 
@@ -299,6 +287,7 @@ a:active {
     margin:auto
 }
 /* it only changes if the screen get smaller than 900px */ 
+
 @media screen and (max-width: 900px) {
     .left-side,.right-side {
         width: 100%;
@@ -332,4 +321,5 @@ a:active {
     }
 
 }
+
 

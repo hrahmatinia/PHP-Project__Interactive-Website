@@ -5,44 +5,44 @@ body
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body p
 {
     font-size: 1em;
     line-height: 2em;
-    
+
 }
 
 #wrapper
 {
-  width: 100%;
-  background-color: transparent;
-  margin: 0 auto;
-  padding: 10px;
-  
+    width: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 10px;
+
 }
 
 #banner
 {
-   background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)), url(../Images/coding.jpg);
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)), url(../Images/coding.jpg);
     height: 100px;
-  padding-top: 2rem;    
-display: flex;
-justify-content: space-between;
-align-items: center;
-text-transform: uppercase;
-font-size: 1rem;
- text-align: center;
-  background-color: #f1f1f1;
-    
+    padding-top: 2rem;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #f1f1f1;
+
 }
 .main:after
 {
-  display:table;
-  content:"";
-  clear:both;
+    display:table;
+    content:"";
+    clear:both;
 }
 
 #content-area
@@ -53,8 +53,8 @@ font-size: 1rem;
     margin: auto;
     padding: auto;
     border-style: solid;
-  border-width: 1px 1px 0px 1px;
-  border-color: #E3E3E3;
+    border-width: 1px 1px 0px 1px;
+    border-color: #E3E3E3;
     overflow: auto;
 }
 
@@ -67,8 +67,8 @@ font-size: 1rem;
     padding: auto;
     overflow: auto;
     border-style: solid;
-  border-width: 1px 1px 0px 1px;
-  border-color: #E3E3E3;
+    border-width: 1px 1px 0px 1px;
+    border-color: #E3E3E3;
 }
 
 #navigation
@@ -86,10 +86,10 @@ font-size: 1rem;
 
 #nav ul
 {
-   margin: 0;
-   padding: 0;
-   width: auto;
-   display: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
 }
 
 #nav li
@@ -126,28 +126,32 @@ footer
 }
 
 .vertical-menu {
-  width: 100%;
-  height: auto;
-  overflow-y: auto;
-  
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+
 }
 
 .vertical-menu a {
-  background-color: #eee;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
+    background-color: #eee;
+    height: 30px;
+    text-align: center;
+    color: black;
+    display: block;
+    margin-top: 20px;
+    padding: 12px;
+    text-decoration: none;
 }
 
+
 .vertical-menu a:hover {
-  background-color: #ccc;
-   color: green;
+    background-color: #ccc;
+    color: green;
 }
 
 .vertical-menu a:active {
-  background-color: #4CAF50;
-  color: white;
+    background-color: #4CAF50;
+    color: white;
 }
 
 #active
@@ -163,29 +167,29 @@ footer
     height: 100%;
     overflow-y: scroll;
     overflow-x: no-content;
-    
+
 }
 .boxed
 {
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: #E3E3E3;
-  
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E3E3E3;
+
 }
 
 
 .textarea_example {
-   resize: none;
-   width: 1400px;
+    resize: none;
+    width: 1400px;
     height: 200px;
-    
+
 }
 
 .textarea_basic
 {
-   resize: none;
-   width: 1400px;
-   height: 100px;
+    resize: none;
+    width: 1400px;
+    height: 100px;
 }
 .syntax-colo
 {
@@ -194,46 +198,46 @@ footer
 
 .previous_button 
 {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  float: left;
-  
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+
 }
 .Next_button
 {
-     background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  float: right;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
 }
 .tryIt_button
 {
     background-color: lightsalmon;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  float: left;  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;  
 }
 
 span
