@@ -9,11 +9,11 @@ this frame is common between all the linked pages.it is basically the fram that 
         <link rel="stylesheet" type="text/css" href="Styles/StyleSheet.css"/>
     </head>
     <body>
-<!--
-This block of php again is shared between all the pages.it is just to define my sample codes.
-the main reason to do this.is because I was not able to add code inside the tags if i didnt
-want to run the code and simply demonstrate that as a sample
--->
+        <!--
+        This block of php again is shared between all the pages.it is just to define my sample codes.
+        the main reason to do this.is because I was not able to add code inside the tags if i didnt
+        want to run the code and simply demonstrate that as a sample
+        -->
         <?php
         $basic_string = highlight_string('
 //defining an Array
@@ -58,9 +58,9 @@ var <array-name> = [element0, element1, element2,... elementN];', true);
 
                 <div id="content-area">
                     <div>
-                        //in each content page we have 2 next-page and previous-page keys
+                        <!--in each content page we have 2 next-page and previous-page keys-->
                         <a href="Functions.php" class="previous_button">&#9664;Previous</a>
-                        <a href="Cookies.php.php" class="Next_button">Next&#9658;</a>
+                        <a href="quiz.php" target="_blank" class="Next_button">Next&#9658;</a>
                     </div>
                     <div class="main-content">               
 
@@ -100,9 +100,9 @@ var <array-name> = [element0, element1, element2,... elementN];', true);
                         <br>
                         <br>
                     </div>
-                    //in each content page we have 2 next-page and previous-page keys
+                    <!--in each content page we have 2 next-page and previous-page keys-->
                     <a href="Functions.php" class="previous_button">&#9664;Previous</a>
-                    <a href="Cookies.php" class="Next_button">Next&#9658;</a>
+                    <a href="quiz.php" target="_blank" class="Next_button">Next&#9658;</a>
 
                 </div>
 

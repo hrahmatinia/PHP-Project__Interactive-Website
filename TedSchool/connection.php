@@ -1,4 +1,4 @@
-//making connection to data base
+
 <?php
 //create connection credentials
 

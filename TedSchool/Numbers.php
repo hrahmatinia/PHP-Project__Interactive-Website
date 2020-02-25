@@ -42,7 +42,7 @@ alert( num.toString(2) );   // 11111111', true);
                 <div id="content-area">
                     <div>
                         
-                         //in each content page we have 2 next-page and previous-page keys
+                         <!--in each content page we have 2 next-page and previous-page keys-->
                         <a href="Strings.php" class="previous_button">&#9664;Previous</a>
                         <a href="Operators.php" class="Next_button">Next&#9658;</a>
                     </div>
@@ -95,7 +95,7 @@ alert( num.toString(2) );   // 11111111', true);
                     <br>
                     <br>
  </div>
-                    //previous and next pages buttons
+                    <!--previous and next pages buttons-->
                     <a href="Strings.php" class="previous_button">&#9664;Previous</a>
                     <a href="Operators.php" class="Next_button">Next&#9658;</a>
 
@@ -104,7 +104,7 @@ alert( num.toString(2) );   // 11111111', true);
                 <div id="sidebar">
                     <h2>Vertical Scroll Menu</h2>
 
-                    //right-side content menu
+                    <!--right-side content menu-->
                     <div class="vertical-menu">
                        <a href="Introduction.php"  >JavaScript Introduction</a>
                         <a href="Syntax.php" >JavaScript Syntax</a>

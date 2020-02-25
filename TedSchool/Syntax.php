@@ -72,7 +72,7 @@ function myFunction(a, b) {
 
                 <div id="content-area">
                     <div>
-                        //in each content page we have 2 next-page and previous-page keys
+                        <!--in each content page we have 2 next-page and previous-page keys-->
                        <a href="Introduction.php" class="previous_button">&#9664;Previous</a>
                     <a href="Comments.php" class="Next_button">Next&#9658;</a>
                     </div>
@@ -163,7 +163,7 @@ function myFunction(a, b) {
                     <br>
                     <br>
                     <br>
- //next and previous pages button
+                    <!--next and previous pages button-->
                     <a href="Introduction.php" class="previous_button">&#9664;Previous</a>
                     <a href="Comments.php" class="Next_button">Next&#9658;</a>
 
@@ -171,9 +171,9 @@ function myFunction(a, b) {
 
                 <div id="sidebar">
                     <h2>Vertical Scroll Menu</h2>
-                      //side content menu
+                      <!--side content menu-->
                     <div class="vertical-menu">
-                       <a href="Introduction.php"  >JavaScript Introduction</a>
+                        <a href="Introduction.php"  >JavaScript Introduction</a>
                         <a href="Syntax.php" id="active">JavaScript Syntax</a>
                         <a href="Comments.php" >JavaScript Comments</a>
                         <a href="Variables.php" >JavaScript Variables</a>

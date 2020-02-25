@@ -8,6 +8,7 @@ if (isset($_POST['submit'])) {
 
     $question_text = $_POST['Question'];
     //creat an array for options.
+    $QID = $_POST['ID'];
     $option1 = $_POST['Option1'];
     $option2 = $_POST['Option2'];
     $option3 = $_POST['Option3'];
@@ -15,7 +16,7 @@ if (isset($_POST['submit'])) {
     $correctAnswer = $_POST['correctAnswer'];
 //inser thos which we get from the form to the data base   
     //question inser query
-    $query = "INSERT INTO quiz (Question, option1, option2, option3, option4, correctAnswer) VALUES ('$question_text', '$option1', '$option2', '$option3', '$option4', '$correctAnswer');";
+    $query = "INSERT INTO quiz (QID, Question, option1, option2, option3, option4, correctAnswer) VALUES ('$QID', '$question_text', '$option1', '$option2', '$option3', '$option4', '$correctAnswer');";
     $insert_row = $mysqli->query($query) or die($mysqli->error . __LINE__);
     echo 'successfull operation.You just added   ', $insert_row, '  new question to the data base';
 }
@@ -39,70 +40,73 @@ if (isset($_POST['delete'])) {
 questions with certain numbers-->
 <html>
     <head>
-        <title>Quiz</titel>
+        <title>Quiz</title>
         <link rel="stylesheet" type="text/css" href="Styles/Kuiz.css"/>
         <script src="JavaScript/TryitYourself.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
 
-</head>
-<body >
-    <header>
-        <div class="container">
-            <h1>JavaScript Quiz</h1>
-        </div>
-    </header>
-    <main>
+    </head>
+    <body >
+        <header>
+            <div class="container">
+                <h1>JavaScript Quiz</h1>
+            </div>
+        </header>
+        <main>
 
-        <!--this is our form and responsible to get the question and options for answer-->
-        <div class="container">
-            <h2>Add Questions to the DataBase</h2>
-            <form method="post" action="admin.php">
+            <!--this is our form and responsible to get the question and options for answer-->
+            <div class="container">
+                <h2>Add Questions to the DataBase</h2>
+                <form method="post" action="admin.php">
+                    <p>
+                        <label> Question Number</label>
+                        <input type="number" name="ID" required/>
+                    </p> 
+                    <p>
+                        <label> Question </label>
+                        <input type="text" name="Question" />
+                    </p> 
+                    <p>
+                        <label> Option #1</label>
+                        <input type="text" name="Option1" />
+                    </p> 
+                    <p>
+                        <label> Option #2</label>
+                        <input type="text" name="Option2" />
+                    </p> 
+                    <p>
+                        <label> Option #3</label>
+                        <input type="text" name="Option3" />
+                    </p> 
+                    <p>
+                        <label> Option #4</label>
+                        <input type="text" name="Option4" />
+                    </p> 
+                    <p>
+                        <label> Option #5--Correct Answer</label>
+                        <input type="text" name="correctAnswer" />
+                    </p> 
 
-                <p>
-                    <label> Question </label>
-                    <input type="text" name="Question" />
-                </p> 
-                <p>
-                    <label> Option #1</label>
-                    <input type="text" name="Option1" />
-                </p> 
-                <p>
-                    <label> Option #2</label>
-                    <input type="text" name="Option2" />
-                </p> 
-                <p>
-                    <label> Option #3</label>
-                    <input type="text" name="Option3" />
-                </p> 
-                <p>
-                    <label> Option #4</label>
-                    <input type="text" name="Option4" />
-                </p> 
-                <p>
-                    <label> Option #5--Correct Answer</label>
-                    <input type="text" name="correctAnswer" />
-                </p> 
+                    <p>
 
-                <p>
+                        <input type="submit" name="submit"  value="Submit"/>
+                    </p> 
+                </form>
 
-                    <input type="submit" name="submit"  value="Submit"/>
-                </p> 
-            </form>
+                <!--this second form which just has two field is responsible to get the data to the php and sql to delete the question with certain ID-->
+                <Form method="post" action="admin.php">
+                    <h2>If you want to delete a question,simply input question`s number and then press the Delete button</h2>
+                    <p>
+                        <input type="number" name="QID" required/>
+                    </p>  
+                    <input type="submit" name="delete"  value="Delete"/>
+                </Form>
 
-            <!--this second form which just has two field is responsible to get the data to the php and sql to delete the question with certain ID-->
-            <Form method="post" action="admin.php">
-                <h2>If you want to delete a question,simply input question`s number and then press the Delete button</h2>
-                <p>
-                    <input type="number" name="QID" required/>
-                </p>  
-                <input type="submit" name="delete"  value="Delete"/>
-            </Form>
+            </div>
 
-        </div>
-
-    </main>
-    <footer>
-        <p>Copyright &COPY; 2020,  TEDSCHOOL.COM</p>
-    </footer>
-</body>
+        </main>
+        <footer>
+            <p>Copyright &COPY; 2020,  TEDSCHOOL.COM</p>
+        </footer>
+    </body>
 </html>

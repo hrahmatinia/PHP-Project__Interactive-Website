@@ -45,7 +45,7 @@
 .admin{
     border: 1px dotted darkseagreen;
     float: right;
-    margin:40px 80px 40px 40px;
+    margin:60px 80px 60px 60px;
     text-decoration: none;
 
 }
@@ -310,7 +310,7 @@ a:active {
         font-size: 15px;
     }
     a{
-        font-size: 10px;
+        font-size: 15px;
     }
     .logo{
         display: none;
@@ -330,6 +330,19 @@ a:active {
     .content{
         width: 80%;
     }
-
+    .form-box{
+        width: 300px;
+        left: 8px;
+        right: 5px;
+    }
+    .Social-Media img
+    {
+        width: 30px;
+        height: 17px;
+        margin: 0 12px 0 30px;
+        box-shadow: 0 0 20px 0 #7D53E4;
+        cursor: pointer;
+        border-radius: 50%;
+    }
 }
 

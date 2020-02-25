@@ -49,7 +49,7 @@ while (i < 10); ', true);
 
                 <div id="content-area">
                     <div>
-                        //in each content page we have 2 next-page and previous-page keys
+                        <!--in each content page we have 2 next-page and previous-page keys-->
                         <a href="IFElseIF.php" class="previous_button">&#9664;Previous</a>
                         <a href="Functions.php" class="Next_button">Next&#9658;</a>
                     </div>
@@ -113,7 +113,7 @@ while (i < 10); ', true);
                         <br>
                         <br>
                     </div>
-                    //in each content page we have 2 next-page and previous-page keys
+                    <!--in each content page we have 2 next-page and previous-page keys-->
                     <a href="IFElseIF.php" class="previous_button">&#9664;Previous</a>
                     <a href="Functions.php" class="Next_button">Next&#9658;</a>
 

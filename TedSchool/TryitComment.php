@@ -13,35 +13,33 @@ the only difference is the JavaScript page link in each page is different.
         <script src="JavaScript/TryitComment.js"></script>
         <script src="JavaScript/Hamburger.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
-        
+
     </head>
     <body onload="load()">
-         
+
         <div class="wrapper">
-             <div class="nav" >
-                 <label for="toggle">&#9776;</label>
-                 <input type="checkbox" id="toggle"/>
-                 <div class="menu">
-                     <a href="Introduction.php">Home</a>
-                     <a href="quiz.php" target="_blank">QUIZ</a>
-                     <a href="index.php"><span>Log Out</span></a>
-                    
-                 </div>
-             </div>  
-            
+            <div class="nav" >
+                <div class="menu">
+                    <a href="Introduction.php">Home</a>
+                    <a href="quiz.php" target="_blank">QUIZ</a>
+                    <a href="index.php"><span>Log Out</span></a>
+
+                </div>
+            </div>  
+
             //in each trying page we have one editor and one ifram
             <div class="main-Container">
                 <div class="editor" id="editor">
-                    
+
                 </div>
                 <iframe class="iframe" id="iframe"> </iframe>  
-                </div>
+            </div>
             <div class="footer">
-             <footer>
-                <p> &copy Copyright <?php echo date("Y"); ?> TEDSCHOOL.COM </p>
-            </footer>
-                </div>
-       </div>
+                <footer>
+                    <p> &copy Copyright <?php echo date("Y"); ?> TEDSCHOOL.COM </p>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>
 

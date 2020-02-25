@@ -19,8 +19,6 @@ the only difference is the JavaScript page link in each page is different.
 
         <div class="wrapper">
             <div class="nav" >
-                <label for="toggle">&#9776;</label>
-                <input type="checkbox" id="toggle"/>
                 <div class="menu">
                     <a href="Introduction.php">Home</a>
                     <a href="quiz.php" target="_blank">QUIZ</a>

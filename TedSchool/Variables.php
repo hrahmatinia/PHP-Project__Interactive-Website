@@ -65,9 +65,9 @@ if(name === "Alex"){
 
                 <div id="content-area">
                     <div>
-                        //in each content page we have 2 next-page and previous-page keys
+                        <!--in each content page we have 2 next-page and previous-page keys-->
                         <a href="Comments.php" class="previous_button">&#9664;Previous</a>
-                        <a href="Operators.php" class="Next_button">Next&#9658;</a>
+                        <a href="DataTypes.php" class="Next_button">Next&#9658;</a>
                     </div>
                     <div class="main-content">               
 
@@ -131,15 +131,15 @@ if(name === "Alex"){
                     <br>
                     <br>
                     <br>
-                    //two button for next and previous pages
+                    <!--two button for next and previous pages-->
                     <a href="Comments.php" class="previous_button">&#9664;Previous</a>
-                    <a href="Operators.php" class="Next_button">Next&#9658;</a>
+                    <a href="DataTypes.php" class="Next_button">Next&#9658;</a>
 
                 </div>
 
                 <div id="sidebar">
                     <h2>Vertical Scroll Menu</h2>
-                    //side content menue
+                    <!--side content menu-->
                     <div class="vertical-menu">
                         <a href="Introduction.php"  >JavaScript Introduction</a>
                         <a href="Syntax.php" >JavaScript Syntax</a>

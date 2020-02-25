@@ -48,7 +48,6 @@ echo "<main>";
 
 echo "<center>";
 echo"<h2>JavaScript Quiz Number 1</h2>";
-echo"<h3> Using MySql</h3>";
 echo"<hr>";
 
 

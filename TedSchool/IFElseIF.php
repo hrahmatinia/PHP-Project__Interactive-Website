@@ -49,7 +49,7 @@ switch(expression) {
 
                 <div id="content-area">
                     <div>
-                         //in each content page we have 2 next-page and previous-page keys
+                         <!--in each content page we have 2 next-page and previous-page keys-->
                         <a href="Operators.php" class="previous_button">&#9664;Previous</a>
                         <a href="Loops.php" class="Next_button">Next&#9658;</a>
                     </div>
@@ -102,13 +102,13 @@ switch(expression) {
                     <br>
                     <br>
  </div>
-                     //in each content page we have 2 next-page and previous-page keys
+                     <!--in each content page we have 2 next-page and previous-page keys-->
                     <a href="Operators.php" class="previous_button">&#9664;Previous</a>
                     <a href="Loops.php" class="Next_button">Next&#9658;</a>
 
                 </div>
 
-                //sidebar menu(content menu)
+                <!--sidebar menu(content menu)-->
                 <div id="sidebar">
                     <h2>Vertical Scroll Menu</h2>
 

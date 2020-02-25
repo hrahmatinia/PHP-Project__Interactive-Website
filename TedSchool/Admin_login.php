@@ -44,7 +44,7 @@ username and password both are (Admin) in this case-->
                             <a href="https://www.instagram.com/hrahmatinia/?hl=en" ><img src="Images/Icons/insta.png" alt=""></a>
                         </div>
 
-                        //admin login form
+                        <!--admin login form-->
                         <form id="Login" class="inputs" action="Admin_Validation.php" method="post">
                             <input type="text" name="name" class="input-field" placeholder="User ID" required>
                             <input type="text" name="password" class="input-field" placeholder="Password" required>

@@ -6,7 +6,7 @@ introduction page is all explanation and no practice has been made here
 <html>
     <head>
 
-        <title> JS Introduction  </title>
+        <title> JavaScript Introduction  </title>
         <link rel="stylesheet" type="text/css" href="Styles/StyleSheet.css"/>
     </head>
     <body>
@@ -18,7 +18,7 @@ introduction page is all explanation and no practice has been made here
 
             <nav id="navigation">
                 <ul id="nav">
-                    //menu on top of the page
+                    <!--menu on top of the page-->
                     <li><a href="Introduction.php">Home</a></li>
                     <li><a href="quiz.php" target="_blank">QUIZ</a></li>
                     <li><a href="index.php">Logout</a></li>
@@ -27,8 +27,8 @@ introduction page is all explanation and no practice has been made here
             <div class="main">
                 <div id="content-area">
                     <div>
-                        //two keys for next page and previous page
-                        <a href="#" class="previous_button">&#9664;Previous</a>
+                        <!--two keys for next page and previous page-->
+                        <a href="index.php" class="previous_button">&#9664;Previous</a>
                         <a href="Syntax.php" class="Next_button">Next&#9658;</a> 
                     </div>
                     <div class="main-content">
@@ -73,7 +73,7 @@ introduction page is all explanation and no practice has been made here
                         <hr>
                         <h3>Why JavaScript ?</h3>
                         <ul>
-                            <li>Amazing integeration with CSS and HTML</li>
+                            <li>Amazing integration with CSS and HTML</li>
                             <li>It is safe</li>
                             <li>It is simple to do simple things.s</li>
                             <li>It is supported by majority of browsers</li>        
@@ -87,8 +87,8 @@ introduction page is all explanation and no practice has been made here
                     <br>
                     <br>
                     <br>
-                    //two buttons for next and previous pages
-                    <a href="#" class="previous_button">&#9664;Previous</a>
+                    <!--two buttons for next and previous pages-->
+                    <a href="index.php" class="previous_button">&#9664;Previous</a>
                     <a href="Syntax.php" class="Next_button">Next&#9658;</a> 
                 </div>   
 

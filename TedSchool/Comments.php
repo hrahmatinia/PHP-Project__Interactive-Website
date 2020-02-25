@@ -79,7 +79,7 @@ function myFunction(a, b) {
             </nav>
             <div class="main">
 
-                //in each content page we have 2 next-page and previous-page keys
+                <!--in each content page we have 2 next-page and previous-page keys-->
                 <div id="content-area">
                     <div>
                         <a href="Syntax.php" class="previous_button">&#9664;Previous</a>
@@ -156,7 +156,7 @@ function myFunction(a, b) {
                     <br>
                     <br>
                     <br>
-                    //in each content page we have 2 next-page and previous-page keys
+                    <!--in each content page we have 2 next-page and previous-page keys-->
                     <a href="Syntax.php" class="previous_button">&#9664;Previous</a>
                     <a href="Variables.php" class="Next_button">Next&#9658;</a>
 

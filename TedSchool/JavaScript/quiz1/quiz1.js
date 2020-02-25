@@ -24,7 +24,7 @@ function showAnswers()
 
             if (results[i].checked)
             {
-                document.getElementById("lablemessage").innerHTML
+                document.getElementById("message").innerHTML
                         += "Question" + results[i].name + ")" + "Your Have Selected  : " + results[i].id + "<br>";
 
             }

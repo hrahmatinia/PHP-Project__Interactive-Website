@@ -74,7 +74,7 @@ if(name === "Alex"){
 
                 <div id="content-area">
                     <div>
-                        //in each content page we have 2 next-page and previous-page keys
+                        <!--in each content page we have 2 next-page and previous-page keys-->
                         <a href="Variables.php" class="previous_button">&#9664;Previous</a>
                         <a href="Strings.php" class="Next_button">Next&#9658;</a>
                     </div>
@@ -140,7 +140,7 @@ if(name === "Alex"){
                         <br>
                         <br>
                     </div>
-                    //in each content page we have 2 next-page and previous-page keys
+                    <!--in each content page we have 2 next-page and previous-page keys-->
                     <a href="Variables.php" class="previous_button">&#9664;Previous</a>
                     <a href="Strings.php" class="Next_button">Next&#9658;</a>
 
